@@ -53,10 +53,3 @@ The dataset contains historical SpaceX launch information, including:
 - Subqueries
 - Aggregate functions
 
-## Project Structure
-
-```text
-├── jupyter-labs-eda-sql-coursera_sqllite.ipynb
-├── Spacex.db
-├── README.md
-└── requirements.txt
