@@ -1,55 +1,60 @@
-# spacex-launch-data-sql-analysis
-SQL-based exploratory data analysis of SpaceX launch records using SQLite and Jupyter Notebook. Includes data querying, aggregation, filtering, and mission performance insights.
-# SpaceX Launch Data SQL Analysis
+# SpaceX Launch Data — SQL Analysis
 
-This project explores SpaceX launch data using SQL queries executed within a Jupyter Notebook environment.
+A SQL-focused notebook exploring historical SpaceX launch records through queries, filtering, and aggregation.
 
-The analysis focuses on extracting insights from historical launch records through SQLite and the `ipython-sql` extension.
+This project demonstrates how relational querying can be used to answer questions about launch activity, payloads, and mission outcomes.
 
-## Project Overview
+## Questions Explored
 
-The notebook demonstrates practical SQL skills by analyzing SpaceX mission data, including:
+- Which launch sites appear in the dataset?
+- How many missions were recorded?
+- How do payload masses vary?
+- What outcomes are associated with different launch records?
+- How can dates, launch sites, and booster versions be used to filter the data?
 
-- Identifying unique launch sites
-- Calculating total and average payload masses
-- Examining mission outcomes
-- Investigating landing success rates
-- Filtering launches by date, payload, and launch site
-- Ranking landing outcomes over time
+## Tools
 
-## Technologies Used
-
-- Python
-- Jupyter Notebook
-- SQLite
 - SQL
+- SQLite
+- Jupyter Notebook
 - ipython-sql
-- Pandas
+- Python
 
-## Dataset
+## SQL Techniques
 
-The dataset contains historical SpaceX launch information, including:
+- `SELECT`, `DISTINCT`, `WHERE`, and `LIKE`
+- `GROUP BY` and `ORDER BY`
+- `COUNT()`, `SUM()`, `AVG()`, and `MIN()`
+- Subqueries and conditional filtering
 
-- Launch dates
-- Booster versions
-- Launch sites
-- Payload masses
-- Customers
-- Mission outcomes
-- Landing outcomes
+## Repository Contents
 
-## Key SQL Concepts Demonstrated
+```text
+.
+├── spacex-launch-data-sql-analysis.ipynb
+└── README.md
+```
 
-- `SELECT`
-- `DISTINCT`
-- `WHERE`
-- `LIKE`
-- `GROUP BY`
-- `ORDER BY`
-- `COUNT()`
-- `SUM()`
-- `AVG()`
-- `MIN()`
-- Subqueries
-- Aggregate functions
+## Getting Started
 
+Open the notebook with Jupyter and execute the cells in order:
+
+```bash
+jupyter notebook
+```
+
+The notebook uses SQL within the Jupyter environment. Check its data-loading cells for the expected SQLite database or source data.
+
+## Scope
+
+The project demonstrates exploratory SQL analysis rather than a production database service. Results depend on the specific dataset used.
+
+## Related Projects
+
+- [SpaceX Data Collection](https://github.com/Slimjoey56/SpaceX-Launch-Data-Collection-and-Wrangling)
+- [SpaceX EDA](https://github.com/Slimjoey56/spacex_launch_data_eda)
+
+## Author
+
+Jehosaphat Brobbey Impiani  
+[GitHub](https://github.com/Slimjoey56)
